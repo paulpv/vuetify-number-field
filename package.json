@@ -1,0 +1,59 @@
+{
+  "name": "vuetify-number-field",
+  "version": "0.0.1",
+  "description": "Number specific variant of Vuetify's v-text-field",
+  "author": {
+    "name": "Paul Peavyhouse",
+    "email": "pv@swooby.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/paulpv/vuetify-number-field",
+    "type": "git"
+  },
+  "main": "dist/vuetify-number-field.cjs.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "vuetify": "^1.0.14"
+  },
+  "devDependencies": {
+    "bili": "^1.3.3",
+    "eslint": "^4.14.0",
+    "eslint-plugin-vue": "^4.0.1",
+    "poi": "^9.3.10",
+    "rollup-plugin-vue": "^2.5.2",
+    "stylus-loader": "^3.0.2",
+    "tyu": "^1.0.0",
+    "vue-test-utils": "^1.0.0-beta.9"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test && npm run build",
+    "lint": "eslint . --ext .js --ext .vue",
+    "test": "npm run lint && tyu",
+    "build": "bili",
+    "example": "poi",
+    "build:example": "poi build"
+  },
+  "poi": {
+    "entry": "example/index.js",
+    "dist": "example/dist",
+    "homepage": "./"
+  },
+  "bili": {
+    "format": [
+      "cjs",
+      "umd"
+    ],
+    "name": "vuetify-number-field",
+    "plugins": [
+      "vue"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:vue/recommended"
+    ]
+  }
+}
