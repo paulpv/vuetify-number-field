@@ -6,20 +6,19 @@
         v-for="(item, index) in items"
         :key="item.id"
         :label="`Price ${index}`"
-        class="input-group--focused inputPrice"
         :autofocus="index === 0"
-        color="cyan lighten-2"
-        clearable
         v-model.number="item.price"
         :hide-details="!item.invalidPrice"
         :error-messages="item.invalidPrice ? 'Invalid price' : undefined"
-        @input="item.invalidPrice = false"
-        >
-      </v-number-field>
-      <br/>
-      <pre>
-      Items: {{ items }}
-      </pre>
+        class="input-group--focused inputPrice"
+        color="cyan lighten-2"
+        clearable
+        @input="item.invalidPrice = false" />
+      <p>
+        <pre>
+Items: {{ items }}
+        </pre>
+      </p>      
     </v-content>
   </v-app>
 </template>
@@ -28,7 +27,6 @@
 import VNumberField from '../src'
 
 export default {
-  name: 'app',
   components: {
     VNumberField
   },
