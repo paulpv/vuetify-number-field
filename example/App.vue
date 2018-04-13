@@ -28,6 +28,7 @@
 import VNumberField from '../src'
 
 export default {
+  name: 'app',
   components: {
     VNumberField
   },

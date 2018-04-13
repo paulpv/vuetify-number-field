@@ -110,7 +110,7 @@ export default {
       }
     },
     value: {
-      handler (newValue, oldValue) {
+      handler (newValue) {
         // console.log('watch value newValue', newValue)
         if (this.internalChange) {
           // console.log('watch value internal change')
@@ -339,7 +339,7 @@ export default {
       }
       this.$emit('focus', e)
     },
-    keyDown (e) {
+    keyDown () {
       // console.log('keyDown e', e)
       this.internalChange = true
     },
