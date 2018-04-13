@@ -1,5 +1,5 @@
 {
-  "name": "vuetify-number-field",
+  "name": "@paulpv/vuetify-number-field",
   "version": "0.0.1",
   "description": "Number specific variant of Vuetify's v-text-field",
   "author": {
@@ -16,9 +16,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "vuetify": "^1.0.14"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.0.0-beta.44",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -33,7 +31,8 @@
     "tyu": "^1.0.6",
     "vue": "^2.5.16",
     "vue-template-compiler": "^2.5.16",
-    "vue-test-utils": "^1.0.0-beta.11"
+    "vue-test-utils": "^1.0.0-beta.11",
+    "vuetify": "^1.0.14"
   },
   "scripts": {
     "prepublishOnly": "npm test && npm run build",
