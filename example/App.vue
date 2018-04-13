@@ -1,5 +1,5 @@
 <template>
-  <div id="app" dark>
+  <v-app dark>
     <v-content class="ma-4">
       v-number-field
       <v-number-field
@@ -21,7 +21,7 @@
       Items: {{ items }}
       </pre>
     </v-content>
-  </div>
+  </v-app>
 </template>
 
 <script>

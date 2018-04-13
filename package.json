@@ -19,13 +19,19 @@
     "vuetify": "^1.0.14"
   },
   "devDependencies": {
-    "bili": "^1.3.3",
+    "@babel/core": "7.0.0-beta.44",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "bili": "^3.0.15",
     "eslint": "^4.14.0",
     "eslint-plugin-vue": "^4.0.1",
-    "poi": "^9.3.10",
-    "rollup-plugin-vue": "^2.5.2",
+    "parse5": "^4.0.0",
+    "poi": "^10.0.3",
+    "rollup-plugin-vue": "^3.0.0",
+    "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "tyu": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16",
     "vue-test-utils": "^1.0.0-beta.9"
   },
   "scripts": {
