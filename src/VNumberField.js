@@ -1,3 +1,4 @@
+
 // Styles
 import 'vuetify/src/stylus/components/_input-groups.styl'
 import 'vuetify/src/stylus/components/_text-fields.styl'
@@ -233,7 +234,7 @@ export default {
     },
     cancelEvent (e, value) {
       // console.warn('cancelEvent')
-      if (value) {
+      if (value !== undefined) {
         this.$nextTick(() => {
           this.$refs.input.value = value
         })
