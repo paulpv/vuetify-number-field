@@ -43,7 +43,7 @@
     "build:example": "poi build"
   },
   "poi": {
-    "entry": "example/index.js",
+    "entry": "example/main.js",
     "dist": "example/dist",
     "homepage": "./"
   },
