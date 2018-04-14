@@ -4,15 +4,19 @@
 
 Number specific variant of Vuetify's v-text-field
 
+NOTE: This is v0.0.1, meaning that I am still working out the kinks of getting this to import in to a stand-alone project.
+
 ## License
 
-MIT &copy; [Paul Peavyhouse](https://github.com/paulpv/vuetify-number-field/blob/master/LICENSE.md)
+[MIT](https://github.com/paulpv/vuetify-number-field/blob/master/LICENSE.md) &copy; [paulpv](https://github.com/paulpv/)
 
 ## Install
 
 ```bash
-yarn add vuetify-number-field
+yarn add @paulpv/vuetify-number-field
 ```
+
+CDN: [UNPKG](https://unpkg.com/@paulpv/vuetify-number-field) | [jsDelivr](https://www.jsdelivr.com/package/npm/@paulpv/vuetify-number-field) (available as `window.VNumberField`)
 
 ## Usage
 
@@ -26,7 +30,7 @@ yarn add vuetify-number-field
 </template>
 
 <script>
-import VNumberField from 'vuetify-number-field'
+import VNumberField from '@paulpv/vuetify-number-field'
 
 export default {
   components: {
