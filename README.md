@@ -4,7 +4,7 @@
 
 Number specific variant of Vuetify's v-text-field
 
-NOTE: This is v0.0.1, meaning that I am still working out the kinks of getting this to import in to a stand-alone project.
+NOTE: This is v0.0.1, meaning that I am still working out some known issues of getting this to import in to a stand-alone project.
 
 ## License
 

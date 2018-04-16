@@ -233,7 +233,7 @@ export default {
       }
     },
     cancelEvent (e, value) {
-      // console.warn('cancelEvent')
+      // console.warn('cancelEvent value', value)
       if (value !== undefined) {
         this.$nextTick(() => {
           this.$refs.input.value = value
