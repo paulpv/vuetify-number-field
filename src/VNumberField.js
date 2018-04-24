@@ -31,6 +31,10 @@ export default {
     autofocus: Boolean,
     box: Boolean,
     clearable: Boolean,
+    clearValue: {
+      type: Number,
+      default: null
+    },
     color: {
       type: String,
       default: 'primary'
@@ -397,7 +401,7 @@ export default {
     },
     clearableCallback () {
       // console.log('clearableCallback')
-      this.inputValue = null
+      this.inputValue = this.clearValue
       this.$nextTick(() => this.$refs.input.focus())
     }
   },
