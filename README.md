@@ -120,3 +120,8 @@ But, that project is over a year old and [relys on `vue build`](https://github.c
 
 I would prefer to base this repo off of a webpack[-simple] template, but I have been unable to find examples of how to do this or get this to work the way that I want.  
 I am all ears if you have any recommendations/suggestions on how to better package this component.
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/paulpv/vuetify-number-field/badge.svg?style=beer-square)](https://beerpay.io/paulpv/vuetify-number-field)  [![Beerpay](https://beerpay.io/paulpv/vuetify-number-field/make-wish.svg?style=flat-square)](https://beerpay.io/paulpv/vuetify-number-field?focus=wish)
