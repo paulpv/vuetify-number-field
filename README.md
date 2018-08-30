@@ -1,6 +1,6 @@
 # vuetify-number-field
 
-[![NPM version](https://img.shields.io/npm/v/vuetify-number-field.svg?style=flat)](https://npmjs.com/package/vuetify-number-field) [![NPM downloads](https://img.shields.io/npm/dm/vuetify-number-field.svg?style=flat)](https://npmjs.com/package/vuetify-number-field)
+[![NPM version](https://img.shields.io/npm/v/@paulpv/vuetify-number-field.svg?style=flat)](https://npmjs.com/package/@paulpv/vuetify-number-field) [![NPM downloads](https://img.shields.io/npm/dm/vuetify-number-field.svg?style=flat)](https://npmjs.com/package/vuetify-number-field)
 
 Number specific variant of Vuetify's v-text-field
 
@@ -14,6 +14,12 @@ NOTE: This is v0.0.1, meaning that I am still working out some known issues of g
 
 ```bash
 yarn add @paulpv/vuetify-number-field
+```
+
+or 
+
+```
+npm i -s @paulpv/vuetify-number-field
 ```
 
 CDN: [UNPKG](https://unpkg.com/@paulpv/vuetify-number-field) | [jsDelivr](https://www.jsdelivr.com/package/npm/@paulpv/vuetify-number-field) (available as `window.VNumberField`)
